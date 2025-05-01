@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+
+# Upload directory - keep structure but ignore content
+uploads/*
+!uploads/.gitkeep
+
+# Environment
+.env
+.env.local
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Replit specific
+.replit
+.breakpoints
+.upm/
+.cache/
